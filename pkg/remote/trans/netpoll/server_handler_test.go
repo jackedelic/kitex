@@ -25,13 +25,13 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	internal_stats "github.com/cloudwego/kitex/internal/stats"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/jackedelic/kitex/internal/mocks"
+	internal_stats "github.com/jackedelic/kitex/internal/stats"
+	"github.com/jackedelic/kitex/internal/test"
+	"github.com/jackedelic/kitex/pkg/klog"
+	"github.com/jackedelic/kitex/pkg/remote"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/pkg/utils"
 )
 
 var (

@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/stats"
+	"github.com/jackedelic/kitex/pkg/kerrors"
+	"github.com/jackedelic/kitex/pkg/klog"
+	"github.com/jackedelic/kitex/pkg/remote"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/pkg/stats"
 )
 
 var connWrapperPool sync.Pool

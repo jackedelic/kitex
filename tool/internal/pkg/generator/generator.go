@@ -22,15 +22,15 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cloudwego/kitex/tool/internal/pkg/log"
-	"github.com/cloudwego/kitex/tool/internal/pkg/tpl"
-	"github.com/cloudwego/kitex/tool/internal/pkg/util"
+	"github.com/jackedelic/kitex/tool/internal/pkg/log"
+	"github.com/jackedelic/kitex/tool/internal/pkg/tpl"
+	"github.com/jackedelic/kitex/tool/internal/pkg/util"
 )
 
 // Constants .
 const (
 	KitexGenPath    = "kitex_gen"
-	KitexImportPath = "github.com/cloudwego/kitex"
+	KitexImportPath = "github.com/jackedelic/kitex"
 	DefaultCodec    = "thrift"
 
 	BuildFileName     = "build.sh"

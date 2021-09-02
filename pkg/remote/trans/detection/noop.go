@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/jackedelic/kitex/pkg/endpoint"
+	"github.com/jackedelic/kitex/pkg/remote"
 )
 
 type noopSvrTransHandler struct{}

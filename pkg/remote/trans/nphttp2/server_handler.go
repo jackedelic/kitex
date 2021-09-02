@@ -25,18 +25,18 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/gofunc"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec/protobuf"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/codes"
-	grpcTransport "github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
-	"github.com/cloudwego/kitex/pkg/streaming"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/jackedelic/kitex/pkg/endpoint"
+	"github.com/jackedelic/kitex/pkg/gofunc"
+	"github.com/jackedelic/kitex/pkg/kerrors"
+	"github.com/jackedelic/kitex/pkg/remote"
+	"github.com/jackedelic/kitex/pkg/remote/codec/protobuf"
+	"github.com/jackedelic/kitex/pkg/remote/trans/nphttp2/codes"
+	grpcTransport "github.com/jackedelic/kitex/pkg/remote/trans/nphttp2/grpc"
+	"github.com/jackedelic/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/pkg/serviceinfo"
+	"github.com/jackedelic/kitex/pkg/streaming"
+	"github.com/jackedelic/kitex/transport"
 )
 
 type svrTransHandlerFactory struct{}

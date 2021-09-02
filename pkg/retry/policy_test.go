@@ -21,8 +21,8 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/internal/test"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
 )
 
 var jsoni = jsoniter.ConfigCompatibleWithStandardLibrary

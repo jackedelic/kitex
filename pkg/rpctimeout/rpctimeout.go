@@ -24,11 +24,11 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/gofunc"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/pkg/endpoint"
+	"github.com/jackedelic/kitex/pkg/gofunc"
+	"github.com/jackedelic/kitex/pkg/kerrors"
+	"github.com/jackedelic/kitex/pkg/klog"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
 )
 
 func recoverFunc(ctx context.Context, logger klog.FormatLogger, ri rpcinfo.RPCInfo, done chan error) {

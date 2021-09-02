@@ -25,13 +25,13 @@ import (
 
 	"github.com/bytedance/gopkg/cloud/circuitbreaker"
 
-	"github.com/cloudwego/kitex/internal/test"
-	kd "github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/event"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/jackedelic/kitex/internal/test"
+	kd "github.com/jackedelic/kitex/pkg/discovery"
+	"github.com/jackedelic/kitex/pkg/endpoint"
+	"github.com/jackedelic/kitex/pkg/event"
+	"github.com/jackedelic/kitex/pkg/kerrors"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/pkg/utils"
 )
 
 var (

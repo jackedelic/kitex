@@ -24,9 +24,9 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
+	"github.com/jackedelic/kitex/internal/mocks"
+	"github.com/jackedelic/kitex/internal/test"
+	"github.com/jackedelic/kitex/pkg/generic/descriptor"
 )
 
 func Test_writeVoid(t *testing.T) {

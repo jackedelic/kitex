@@ -24,9 +24,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/connpool"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/jackedelic/kitex/pkg/connpool"
+	"github.com/jackedelic/kitex/pkg/remote"
+	"github.com/jackedelic/kitex/pkg/utils"
 )
 
 var (

@@ -21,14 +21,14 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/client"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/event"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/rpcinfo/remoteinfo"
+	"github.com/jackedelic/kitex/internal/client"
+	"github.com/jackedelic/kitex/internal/test"
+	"github.com/jackedelic/kitex/pkg/discovery"
+	"github.com/jackedelic/kitex/pkg/endpoint"
+	"github.com/jackedelic/kitex/pkg/event"
+	"github.com/jackedelic/kitex/pkg/kerrors"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/pkg/rpcinfo/remoteinfo"
 )
 
 var (

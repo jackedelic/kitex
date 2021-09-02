@@ -11,8 +11,8 @@
 
 客户端埋点粒度控制：
 ```go
-import "github.com/cloudwego/kitex/client"
-import "github.com/cloudwego/kitex/pkg/stats"
+import "github.com/jackedelic/kitex/client"
+import "github.com/jackedelic/kitex/pkg/stats"
 ...
 baseStats := client.WithStatsLevel(stats.LevelBase)
 client, err := echo.NewClient("echo", baseStats)
@@ -23,8 +23,8 @@ if err != nil {
 
 服务端埋点粒度控制：
 ```go
-import "github.com/cloudwego/kitex/server"
-import "github.com/cloudwego/kitex/pkg/stats"
+import "github.com/jackedelic/kitex/server"
+import "github.com/jackedelic/kitex/pkg/stats"
 ...
 baseStats := server.WithStatsLevel(stats.LevelBase)
 svr, err := echo.NewServer(baseStats)

@@ -26,13 +26,13 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	"github.com/cloudwego/kitex/client/callopt"
-	"github.com/cloudwego/kitex/client/genericclient"
-	kt "github.com/cloudwego/kitex/internal/mocks/thrift"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/pkg/utils"
-	"github.com/cloudwego/kitex/server"
+	"github.com/jackedelic/kitex/client/callopt"
+	"github.com/jackedelic/kitex/client/genericclient"
+	kt "github.com/jackedelic/kitex/internal/mocks/thrift"
+	"github.com/jackedelic/kitex/internal/test"
+	"github.com/jackedelic/kitex/pkg/generic"
+	"github.com/jackedelic/kitex/pkg/utils"
+	"github.com/jackedelic/kitex/server"
 )
 
 func TestRawThriftBinary(t *testing.T) {

@@ -19,9 +19,9 @@ package remote
 import (
 	"sync"
 
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/pkg/serviceinfo"
+	"github.com/jackedelic/kitex/transport"
 )
 
 var (

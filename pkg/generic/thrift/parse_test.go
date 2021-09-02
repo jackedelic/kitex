@@ -21,8 +21,8 @@ import (
 
 	"github.com/cloudwego/thriftgo/parser"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
+	"github.com/jackedelic/kitex/internal/test"
+	"github.com/jackedelic/kitex/pkg/generic/descriptor"
 )
 
 var httpIDL = `

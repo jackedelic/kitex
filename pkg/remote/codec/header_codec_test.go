@@ -21,13 +21,13 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec/perrors"
-	"github.com/cloudwego/kitex/pkg/remote/transmeta"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/jackedelic/kitex/internal/mocks"
+	"github.com/jackedelic/kitex/internal/test"
+	"github.com/jackedelic/kitex/pkg/remote"
+	"github.com/jackedelic/kitex/pkg/remote/codec/perrors"
+	"github.com/jackedelic/kitex/pkg/remote/transmeta"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/transport"
 )
 
 var mockPayloadLen = 100

@@ -24,8 +24,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/pkg/utils"
 )
 
 // DefaultWeight is the default weight for an instance.

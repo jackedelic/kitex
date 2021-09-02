@@ -23,9 +23,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/internal/test"
+	"github.com/jackedelic/kitex/pkg/klog"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
 )
 
 type mockTracer struct {

@@ -20,8 +20,8 @@ import (
 	"runtime"
 	"sync/atomic"
 
-	"github.com/cloudwego/kitex/pkg/gofunc"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/jackedelic/kitex/pkg/gofunc"
+	"github.com/jackedelic/kitex/pkg/remote"
 )
 
 // BufferGetter is used to get a remote.ByteBuffer.

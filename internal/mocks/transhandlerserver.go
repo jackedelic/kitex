@@ -20,9 +20,9 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/jackedelic/kitex/pkg/kerrors"
+	"github.com/jackedelic/kitex/pkg/remote"
+	"github.com/jackedelic/kitex/pkg/utils"
 )
 
 type mockSvrTransHandlerFactory struct {

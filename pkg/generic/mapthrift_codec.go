@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
-	"github.com/cloudwego/kitex/pkg/generic/thrift"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/jackedelic/kitex/pkg/generic/descriptor"
+	"github.com/jackedelic/kitex/pkg/generic/thrift"
+	"github.com/jackedelic/kitex/pkg/remote"
+	"github.com/jackedelic/kitex/pkg/remote/codec"
+	"github.com/jackedelic/kitex/pkg/serviceinfo"
 )
 
 type mapThriftCodec struct {

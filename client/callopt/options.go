@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/client"
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/http"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/rpcinfo/remoteinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/jackedelic/kitex/internal/client"
+	"github.com/jackedelic/kitex/pkg/discovery"
+	"github.com/jackedelic/kitex/pkg/http"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/pkg/rpcinfo/remoteinfo"
+	"github.com/jackedelic/kitex/pkg/utils"
 )
 
 var (
@@ -93,6 +93,16 @@ func setInstance(svr remoteinfo.RemoteInfo, hostport string) error {
 		return fmt.Errorf("invalid '%s'", hostport)
 	}
 	return nil
+}
+
+// WithDestService specifies the name of target service.
+func WithDestService(svr string) Option {
+	return Option{func(o *callOptions, di *strings.Builder) {
+		di.WriteString("WithDestService(")
+		di.WriteString(svr)
+		di.WriteString("),")
+		o.svr.SetServiceName(svr)
+	}}
 }
 
 // WithURL specifies the target for a RPC call with url.

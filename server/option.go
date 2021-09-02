@@ -22,17 +22,17 @@ import (
 	"net"
 	"time"
 
-	internal_server "github.com/cloudwego/kitex/internal/server"
-	internal_stats "github.com/cloudwego/kitex/internal/stats"
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/limit"
-	"github.com/cloudwego/kitex/pkg/registry"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/trans/netpollmux"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/stats"
-	"github.com/cloudwego/kitex/pkg/utils"
+	internal_server "github.com/jackedelic/kitex/internal/server"
+	internal_stats "github.com/jackedelic/kitex/internal/stats"
+	"github.com/jackedelic/kitex/pkg/endpoint"
+	"github.com/jackedelic/kitex/pkg/klog"
+	"github.com/jackedelic/kitex/pkg/limit"
+	"github.com/jackedelic/kitex/pkg/registry"
+	"github.com/jackedelic/kitex/pkg/remote"
+	"github.com/jackedelic/kitex/pkg/remote/trans/netpollmux"
+	"github.com/jackedelic/kitex/pkg/rpcinfo"
+	"github.com/jackedelic/kitex/pkg/stats"
+	"github.com/jackedelic/kitex/pkg/utils"
 )
 
 // Option is the only way to config server.
